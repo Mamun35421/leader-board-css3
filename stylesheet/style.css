@@ -80,12 +80,19 @@ margin-top: 3px;
     color: #562EFF;
 }
 /* courses style */
+#course{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    grid-column-gap:25px ;
+}
 .courses .courses-banner img{
  width: 224px;
  height: 104px;
 }
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .fa-star{
     font-size: 12px;
